@@ -19,7 +19,7 @@ function start() {
   }, 100);
   setTimeout(function () {
     clearInterval(myInt);
-  },20000);
+  },10000);
   if($('#paysystem-block').length){
     initInstallmentMethod();
   }
