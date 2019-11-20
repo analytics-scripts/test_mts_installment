@@ -5,7 +5,7 @@ function start() {
     var $buybuttons = $('.product-description .buybutton-credit');
     if ($buybuttons.length) {
       clearInterval(myInt);
-      if($('.basket').first().find('.items-count').text() == '0'){
+      if($('.basket').first().find('.items-count').text() != '0'){
       return false;
       }
       $buybuttons.on('click', function (e) {
