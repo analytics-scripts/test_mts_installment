@@ -4,7 +4,6 @@ function start() {
   console.log('start');
   var myInt = setInterval(function () {
     var $buybuttons = $('.product-description .buybutton-credit');
-    console.log($buybuttons.length);
     if ($buybuttons.length) {
       clearInterval(myInt);
       $buybuttons.on('click', function (e) {
