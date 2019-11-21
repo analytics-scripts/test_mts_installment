@@ -1,3 +1,7 @@
+function test_function() {
+  return null;
+}
+
 start();
 function start() {
   console.log('start');
